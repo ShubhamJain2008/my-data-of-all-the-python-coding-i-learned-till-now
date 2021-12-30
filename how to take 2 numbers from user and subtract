@@ -1,0 +1,4 @@
+# How to take 2 numbers from user and subtract
+num1 = input("Enter 1st number\n")
+num2 = input("Enter 2nd number\n")
+print(f"Difference of {num1} and {num2} is \n{int(num1) - int(num2)}")
