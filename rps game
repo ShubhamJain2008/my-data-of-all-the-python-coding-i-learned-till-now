@@ -1,0 +1,34 @@
+# intro
+bot = input("Rps bot:- Hello there! wanna play rps?Type yes to continue.\n")
+d = ('yes')
+if bot == d:
+  print("Rps bot:- ok then lets play")
+else:
+    print("no fun then,")
+# choice command
+from random import choice
+a = ("rock","paper","scissor")
+bot = choice(a)
+# user input
+Human = input("Rps bot:- What will u chose,Rock,Paper or Scissor?\n").lower().strip()
+# bot random chocice
+if Human == bot:
+  print("Rps bot:- It is a tie")
+  if Human == ("rock"):
+    if bot == ("scissor"):
+      print("gg!u won :D")
+  if Human == ("scissor"):
+    if bot == ("rock"):
+      print("Sad u lost bro:( ")
+if Human == ("paper"):
+    if bot == ("scissor"):
+      print("Sad u lost bro:( ")
+if Human == ("scissor"):
+    if bot == ("paper"):
+      print("gg!u won :D ")
+if Human == ("paper"):
+    if bot == ("rock"):
+      print("gg!u won :D ")
+if Human == ("rock"):
+    if bot == ("paper"):
+      print("gg!u won :D ")
