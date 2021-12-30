@@ -1,0 +1,3 @@
+num1 = input("Enter ur 1st number\n")
+num2 = input("Enter ur 2nd number\n")
+print(f"Quotient of {num1} divided by {num2} is \n {int(num1) / int(num2)}")
