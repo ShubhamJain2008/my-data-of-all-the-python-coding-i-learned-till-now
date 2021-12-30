@@ -1,0 +1,10 @@
+print('Sum of 8,880,80 is :-')
+a = 8
+b = 880
+c = 80
+Sum = a+b+c
+print(Sum)
+
+print('Product of 8,80,880 is :-')
+Product = a*b*c
+print(Product)
