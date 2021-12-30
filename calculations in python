@@ -1,0 +1,19 @@
+a = 40
+b = 60
+c = a+b
+print("sum of 40 and 60 is",+c)
+
+a = 99
+b = 98
+c = a*b
+print("product of 99 and 98 is",+c)
+
+a = 100
+b = 10
+c = a/b
+print("quotient of 100 by 10 is",+c)
+
+a = 987690
+b = 675431
+c = a-b
+print("difference of 675431 from 987690 is",+c)
