@@ -1,0 +1,4 @@
+# How to take 2 numebrs from user and mutiply
+num1 = input("Enter ur 1st number\n")
+num2 = input("Enter ur 2nd number\n")
+print(f"Product of {num1} and {num2} is \n {int(num1)* int(num2)}")
