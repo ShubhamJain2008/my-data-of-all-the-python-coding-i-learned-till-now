@@ -1,0 +1,5 @@
+print("Sum of 770 and 70 is :-")
+a = 770
+b = 70
+Sum = a+b
+print ("Sum is",+Sum)
