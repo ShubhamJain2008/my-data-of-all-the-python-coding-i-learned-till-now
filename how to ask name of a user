@@ -1,0 +1,4 @@
+# How to ask name of a user
+str1 = "what is ur name\n"
+name = input(str1)
+print(f"your name is \n{name}")
