@@ -1,0 +1,48 @@
+import random #for random numbers 
+import sys #comand used to make user to able to exit game
+import pygame 
+from pygame.locals import *     #for basic py imports
+
+#global variables for game
+FPS = 98
+WIDTH = 289
+HEIGHT = 511
+SCREEN = pygame.display.set_mode((WIDTH,HEIGHT))
+BaseORDINATE = HEIGHT * 0.8 
+GAME_SPRITES = {}
+GAME_SOUNDS ={}
+PLAYER = 'Downloads/Flappy bird'
+BACKGROUND = 'Downloads/background'
+PIPE = 'Downloads/pipe'
+
+#This is our main point from where game wil start
+if _name_ == "_main_":
+  pass
+
+pygame.init() #Initialize all pygame modules
+FPSCLOCK = pygame.time.Clock()
+pygame.display.set_caption('Flappy bird by Shubham')
+GAME_SPRITES['numbers'] = (
+    pygame.image.load('Downloads/0 -9').convert_alpha(),
+)
+
+#Game image loading cmds
+GAME_SPRITES['Welcome'] =pygame.image.load('Downloads/welcome').convert_alpha()
+GAME_SPRITES['base'] =pygame.image.load('Downloads/base').convert_alpha()
+GAME_SPIRTES['pipe'] =(pygame.tranform.rotate(pygame.image.load(PIPE).convert_alpha(), 180),
+pygame.image.load(PIPE).convert_alpha()
+)
+GAME_SPRITES['player'] =pygame.image.load(PLAYER).covert_alpha()
+GAME_SPRITES['background'] =pygame.image.load(BACKGROUND).convert_alpha()
+
+#game sounds
+GAME_SOUNDS['die'] = pygame.mixer.Sound('Downloads/Game Over.mp4')
+GAME_SOUNDS['hit'] = pygame.mixer.Sound('Downloads/hit')
+GAME_SOUNDS['point'] = pygame.mixer.Sound('Downloads/point')
+GAME_SOUNDS['swoosh'] = pygame.mixer.Sound('Downloads/swoosh')
+GAME_SOUNDS['wing'] = pygame.mixer.Sound('Downloads/wing')
+GAME_SOUNDS['Theme song'] = pygame.mixer.Sound('Downloads/Flappy Bird Theme Song')
+
+while True:
+  welcomeScreen()
+  maingame()
