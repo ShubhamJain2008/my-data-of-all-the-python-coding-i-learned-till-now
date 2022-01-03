@@ -1,0 +1,14 @@
+# Using loops
+s = input('Write a string to reverse\n')
+def reverse(s):
+  str = ""
+  for i in s:
+    str = i + str
+  return str
+  
+  
+print ("The original string  is : ",end="")
+print (s)
+  
+print ("The reversed string(using loops) is : ",end="")
+print (reverse(s))
