@@ -1,0 +1,15 @@
+# float division operator
+# it prints integer part of a number in division
+
+a=5
+b=2
+c=a//b
+print(c)
+
+#modulus operator
+#it prints remider of  division of 2 numbers
+
+a=5
+b=2
+c=a%b
+print(c)
