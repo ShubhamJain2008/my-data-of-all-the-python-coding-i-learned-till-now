@@ -1,0 +1,47 @@
+x = int(input('Write ur first number\n'))
+y = int(input('Write ur second number\n'))
+z = int(input('Write ur third number\n'))
+
+if x==y==z:
+  print('All r equal')
+
+if x==y<z:
+  print(f"{z} is greatest")
+
+if x==y>z:
+  print(f"{x} and {y} are greatest")
+
+if x<y==z:
+  print(f"{y} and {z} are greatest")
+
+if x>y==z:
+  print(f"{x} is greatest")
+
+
+
+
+
+
+
+
+
+
+if x>y>z:
+  print(f"{x} is greatest")
+
+if x>z>y:
+  print(f"{x} is greatest")
+
+if y>x>z:
+  print(f"{y} is greatest")
+
+if y>z>x:
+  print(f"{y} is greatest")
+
+if z>y>x:
+  print(f"{z} is greatest")
+
+if z>x>y:
+  print(f"{z} is greatest")
+
+
