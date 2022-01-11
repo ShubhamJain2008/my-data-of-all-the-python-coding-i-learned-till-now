@@ -1,0 +1,16 @@
+#values putted by user
+num1=int(input('Enter ur first number\n'))
+num2=int(input('Enter ur second number\n'))
+
+# from here the print of user number starts
+
+# this is the reminder of user numbers to divide
+
+print(f"remider is \n {(num1)%(num2)}")
+
+# this is the integer part of user numbers divided
+
+print(f"integer part in answer is \n {(num1)//(num2)}")
+
+
+
