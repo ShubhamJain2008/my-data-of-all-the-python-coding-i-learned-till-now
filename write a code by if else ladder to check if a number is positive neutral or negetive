@@ -1,0 +1,10 @@
+x = int(input("Enter ur integer\n"))
+if x>0:
+  print("Positive")
+elif x==0:
+  print("Neutral")
+
+else:
+  print("Negative")
+
+
