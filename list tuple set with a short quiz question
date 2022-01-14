@@ -1,0 +1,83 @@
+#Lists:-
+#list are bassically some numbers stored in a variable with square brackets with can be edited, printed.
+
+#it is mutable(when one or more elements can be edited or changed).
+
+Num_List = [2,8,0,6]
+
+names = ['ram','sham','rohan','chintu']
+
+mil = (names,Num_List)
+print(mil)
+print(Num_List[0],names[0])
+
+Num_List.append(3)
+print(Num_List)
+
+Num_List.remove(2)
+print(Num_List)
+
+Num_List.pop()
+print(Num_List)
+
+Num_List.insert(2,8)
+print(Num_List)
+
+Num_List.extend([2,18,98,56])
+print(Num_List)
+
+del Num_List[3]
+print(Num_List)
+
+min(Num_List)
+print(min(Num_List))
+print(max(Num_List))
+
+Num_List.sort()
+print(Num_List)
+print(sum(Num_List))
+
+
+
+Num_List.clear()
+print(Num_List)
+
+
+#tuple:-
+#tuple is also similar to list but it has less features then it.
+#it is inmutable.
+tuple1 = (22,42,56,78)
+print(tuple1[3])
+
+#sets:-
+#sets are also like lists where a lot values  can be added printed.
+#we cant print index value. 
+# it sorts whole list when printed but if same values are putted it removes the duplicate one.
+set1 = {22,32,57,86}
+print(set1)
+
+
+
+
+
+
+#Quiz
+# Q. nums = [25,36,95,14,12,26].
+#wac to delete values (95,14,12)
+
+#Ans:-
+
+#Solution:- 
+
+nums = [25,36,95,14,12,26]
+print(nums)
+del nums[2:5]
+print(nums)
+
+#Explanation- in this question we were given 6 values in a list and we need to delete values (95,14,12). So as we can see these values index numbers are [2,3,4] respectively,and the index numbers are consecutive.        so we can specify them as[2:5] also, so our final command will be {del nums[2:5]}.
+
+
+
+
+
+
