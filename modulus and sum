@@ -1,0 +1,9 @@
+#values putted by user
+num1=int(input('Enter ur first number\n'))
+num2=int(input('Enter ur second number\n'))
+sum=num1+num2
+num3=int(input('Enter ur third number\n'))
+
+
+# this is the sum of num1 and num2 and reminder of num3 of user numbers divided and added
+print(f"{(sum)%(num3)}")
