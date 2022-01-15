@@ -1,0 +1,9 @@
+#values putted by user
+num1=float(input('Enter ur first number\n'))
+num2=float(input('Enter ur second number\n'))
+
+# this is the integer part of user numbers divided
+print(f"integer part in answer is \n {(num1)//(num2)}")
+
+
+
