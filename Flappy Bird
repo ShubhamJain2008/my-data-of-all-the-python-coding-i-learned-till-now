@@ -221,3 +221,7 @@ GAME_SOUNDS['Theme song'] = pygame.mixer.Sound('audio/Flappy Bird Theme Song.mp3
 while True:
   welcomeScreen()
   maingame()
+  
+  
+  
+  
