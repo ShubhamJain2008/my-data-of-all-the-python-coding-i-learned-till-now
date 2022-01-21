@@ -1,12 +1,12 @@
 from ursina import *
 
 class Test_cube(Entity):
-  def _int_(self):
-    super()._int_(
-      model = 'cube',
-      color = color.white,
-      texture = 'white_cube'
-    )
+	def __init__(self):
+		super().__init__(
+			parent = scene,
+			model = 'cube',
+			texture = 'white_cube',
+			rotation = Vec3(45,45,45))
 
 def update():
   if held_keys['a']:
@@ -28,6 +28,9 @@ test_square = Entity(model = 'quad', color = color.red, scale = (1,2), position 
 
 sans_texture = load_texture('Bedrock.jpg')
 sans = Entity(model = 'quad', texture = sans_texture)
+
+test_cube = Test_cube()
+
 
 
 app.run()
