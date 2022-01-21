@@ -1,0 +1,33 @@
+from ursina import *
+
+class Test_cube(Entity):
+  def _int_(self):
+    super()._int_(
+      model = 'cube',
+      color = color.white,
+      texture = 'white_cube'
+    )
+
+def update():
+  if held_keys['a']:
+    test_square.x -= 2 * time.dt
+
+  if held_keys['d']:
+    test_square.x = 2 * time.dt
+
+
+  if held_keys['w']:
+    test_square.y = 2 * time.dt
+
+  if held_keys['s']:
+    test_square.y -= 2 * time.dt
+
+app = Ursina()
+
+test_square = Entity(model = 'quad', color = color.red, scale = (1,2), position = (1,5))
+
+sans_texture = load_texture('Bedrock.jpg')
+sans = Entity(model = 'quad', texture = sans_texture)
+
+
+app.run()
