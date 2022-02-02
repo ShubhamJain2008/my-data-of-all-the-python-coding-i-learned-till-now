@@ -1,0 +1,26 @@
+#Q1. WAP to print your name,height(in feet to cm) and weight 
+#Answer:-
+#Name input
+Name = input("Enter ur name\n")
+print(f"Your name is {Name}")
+#Height input
+Height = float(input("Entert ur Height in feet\n"))
+print(f"Your height is {Height*30.48} cm")
+#Weight input 
+Weight = float(input("Enter ur weight in kg\n"))
+print(f"Your weight is {Weight} kg")
+#Explanation:-
+#So bassically in this program we have to only take a basic input from user to print its name,weight and height and covert height from feet to cm so we can do this very easily by using the formula {(height in feet)*30.48} to get our height in cm 
+
+#Q2. WAP to take temprature from user in celcius and convert it into feraninte
+Temprature = float(input("Enter temprature in celcuis\n"))
+print(f"temprature is {(Temprature*9/5)+32}°F")
+#Explanation:-
+#So bassically in this program we have to only take a basic input from user to give a temperature in celcius and we have to covert it into Feranite so we can do this very easily by using the formula{(Temprature in °C *9/5)+32} to get our Temprature in °F
+
+
+
+
+
+
+
