@@ -4,7 +4,7 @@
 Name = input("Enter ur name\n")
 print(f"Your name is {Name}")
 #Height input
-Height = float(input("Entert ur Height in feet\n"))
+Height = float(input("Enter ur Height in feet\n"))
 print(f"Your height is {Height*30.48} cm")
 #Weight input 
 Weight = float(input("Enter ur weight in kg\n"))
