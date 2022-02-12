@@ -1,0 +1,68 @@
+import sys
+radius = int(input("Enter any circle radius\n"))
+circumference = 2*22/7*radius
+area = 22/7*radius**2
+print(f"Area is\n{area}")
+print(f"Circumference is\n{circumference}")
+
+name = input("Enter your name\n")
+
+roll_num = int(input("Enter your roll no.\n"))
+
+marks1 = int(input("Enter your first sub marks\n"))
+
+if marks1 > 100:
+  exit()
+elif marks1 < 0:
+  exit()
+else:
+    pass
+
+marks2 = int(input("Enter your second sub marks\n"))
+
+if marks2 > 100:
+  exit()
+elif marks2 < 0:
+  exit()
+else:
+    pass
+
+marks3 = int(input("Enter your third sub marks\n"))
+
+if marks3 > 100:
+  exit()
+elif marks3 < 0:
+  exit()
+else:
+    pass
+
+marks4 = int(input("Enter your fourth sub marks\n"))
+
+if marks4 > 100:
+  exit()
+elif marks4 < 0:
+  exit()
+else:
+    pass
+
+marks5 = int(input("Enter your fifth sub marks\n"))
+
+if marks5 > 100:
+  exit()
+elif marks5 < 0:
+  exit()
+else:
+    pass
+
+total = marks1 + marks2 + marks3 + marks4 + marks5
+
+print(f"{name} ur score is \n{total}")
+
+
+
+
+
+
+
+
+
